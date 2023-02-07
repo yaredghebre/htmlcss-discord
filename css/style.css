@@ -35,7 +35,6 @@ a{
 .button{
     width: 50px;
     height: 50px;
-    /* background-color: red; */
     border-radius: 20px;
     padding: 15px;
 }
@@ -85,18 +84,18 @@ a{
 }
 
 .header-nav{
-    width: 50%;
+    width: 70%;
     text-align: center;
 }
 
 .header-logo{
-    width: 25%;
+    width: 15%;
     padding: 0 10px;
     display: flex;
 }
 
 .header-login{
-    width: 25%;
+    width: 15%;
     padding: 0 10px;
     text-align: right;
 }
