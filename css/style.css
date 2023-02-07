@@ -117,7 +117,7 @@ h1{
     height: 500px;
     background-color: #255ee9;
     background-image: url("../img/jumbo.png");
-    background-size: cover;
+    background-size: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -141,7 +141,7 @@ h1{
 /* main panels */
 .panel-white{
     display: flex;
-    height: 500px;
+    /* height: 500px; */
     justify-content: center;
     padding: 50px 0;
 }
@@ -149,7 +149,7 @@ h1{
 .panel-grey{
     display: flex;
     background-color: lightgrey;
-    height: 500px;
+    /* height: 500px; */
     justify-content: center;
     padding: 50px 0;
 }
@@ -157,18 +157,31 @@ h1{
 .panel-container{
     width: 60%;
     display: flex;
+    
+}
+
+.panel-container h2{
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+}
+
+.panel-container p{
+    font-size: 1.5rem;
+    line-height: 40px;
 }
 
 .blue-square{
     width: 60%;
-    background-color: #1e90ff;
-    border: dashed 2px;
+    /* background-color: #1e90ff; */
 }
 
+.blue-square img{
+
+}
 .pink-square{
     width: 40%;
-    background-color: #ffc0cb;
-    border: dashed 2px;
+    /* background-color: #ffc0cb; */
+    padding: 35px 10px;
 }
 
 
