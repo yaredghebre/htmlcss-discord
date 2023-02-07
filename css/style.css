@@ -117,11 +117,12 @@ h1{
     height: 500px;
     background-color: #255ee9;
     background-image: url("../img/jumbo.png");
-    background-size: 100%;
+    background-size: cover;
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: white;
+    /* padding: 50px 0; */
 }
 
 .intro-container{
@@ -186,6 +187,11 @@ h1{
 
 .green-square {
     text-align: center;
+}
+
+.main-bottom-button h2{
+    font-size: 2.5rem;
+    padding-bottom: 50px;
 }
 
 /* FOOTER */
