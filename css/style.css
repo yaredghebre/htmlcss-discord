@@ -172,24 +172,20 @@ h1{
 
 .blue-square{
     width: 60%;
-    /* background-color: #1e90ff; */
 }
 
-.blue-square img{
-
-}
 .pink-square{
     width: 40%;
-    /* background-color: #ffc0cb; */
     padding: 35px 10px;
 }
 
-
 .green-square{
     width: 100%;
-    background-color: #228b22;
-    border: dashed 2px;
-    /* debug */
+    /* display: flex; */
+}
+
+.green-square {
+    text-align: center;
 }
 
 /* FOOTER */
