@@ -269,7 +269,7 @@ hr{
 }
 
 .footer-nav{
-    background-color: #7fffd4;
+    /* background-color: #7fffd4; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -277,20 +277,6 @@ hr{
     width: 60%;
 }
 
-.footer-logo{
-    background-color: pink;
-    padding: 10px;
-    line-height: 25%;
-    border: dashed 2px;
-    /* debug */
-    height: 50%;
-}
-
-.footer-button{
-    background-color: pink;
-    padding: 10px;
-    line-height: 25%;
-    border: dashed 2px;
-    /* debug */
-    height: 50%;
+.footer-bottom{
+    padding: 50px 0;
 }
