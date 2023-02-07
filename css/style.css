@@ -25,6 +25,7 @@
 /* COMMON */
 img{
     max-width: 100%;
+    max-height: 100%;
 }
 
 a{
@@ -32,6 +33,11 @@ a{
     text-decoration: none;
 }
 
+h1{
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+/* Utilities */
 .button{
     width: 50px;
     height: 50px;
@@ -41,7 +47,7 @@ a{
 
 .btn-white{
     background-color: white;
-    color: #255ee9;
+    color: black;
 }
 
 .btn-black{
@@ -53,6 +59,11 @@ a{
     background-color: #255ee9;
     color: white;
 }
+
+/* .flex{
+    align-items: center;
+    justify-content: space-around;
+} */
 
 /* HEADER */
 .header{
@@ -70,7 +81,6 @@ a{
     display: flex;
     line-height: 50px;
     width: 60%;
-    /* debug */
     height: 50px;
 }
 
@@ -80,12 +90,13 @@ a{
 
 .links{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .header-nav{
     width: 70%;
     text-align: center;
+    padding: 0 100px;
 }
 
 .header-logo{
@@ -103,18 +114,28 @@ a{
 /* MAIN */
 /* introduction panel */
 .panel-intro{
-    background-color: #00008b;
+    height: 500px;
+    background-color: #255ee9;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
     display: flex;
-    padding: 50px 0;
     justify-content: space-around;
-    /* debug */
-    height: 400px;
+    align-items: center;
+    color: white;
 }
 
 .intro-container{
-    background-color: #ee82ee;
     width: 50%;
-    border: dashed 2px;
+    text-align: center;
+    line-height: 30px;
+}
+
+/* intro buttons */
+.funzioni-intro{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 /* main panels */
