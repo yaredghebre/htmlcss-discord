@@ -96,7 +96,7 @@ h1{
 .header-nav{
     width: 70%;
     text-align: center;
-    padding: 0 100px;
+    /* padding: 0 100px; */
 }
 
 .header-logo{
